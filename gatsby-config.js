@@ -49,6 +49,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-twitter`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {
@@ -105,7 +106,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "The Learning Feed (RSS)",
           },
         ],
       },
