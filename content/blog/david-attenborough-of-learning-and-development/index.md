@@ -1,8 +1,8 @@
 ---
 title: The David Attenborough of EdTech
 date: "2021-10-20"
-tags: ['EdTech', 'Corporate L&D']
-author: ['Lori Niles-Hofmann']
+topics: ["EdTech", "Corporate L&D"]
+people: ["Lori Niles-Hofmann"]
 ---
 
 [Lori Niles-Hofmann](https://www.linkedin.com/in/lorinileshofmann) makes some excellent points about EdTech via animal videos.

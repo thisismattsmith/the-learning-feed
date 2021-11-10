@@ -1,8 +1,8 @@
 ---
 title: Assumptions in L&D
 date: "2021-10-30"
-author: Arun Pradhan
-tags: ['Corporate L&D']
+people: ["Arun Pradhan"]
+topics: ['Corporate L&D']
 ---
 
 Arun suggests three assumptions made by L&D that aren't very helpful.

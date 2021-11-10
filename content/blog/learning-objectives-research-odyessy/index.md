@@ -1,6 +1,8 @@
 ---
 title: Learning Objectives - a research inspired odyessy
 date: "2021-11-08"
+topics: ["learning objectives", "instructional design"]
+people: ["Will Thalheimer"]
 ---
 
 Will Thalheimer

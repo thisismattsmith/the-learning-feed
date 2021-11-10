@@ -1,7 +1,8 @@
 ---
 title: Seek > Sense > Share by Harold Jarche
 date: "2021-10-20"
-tags: ['pkm', 'working out loud']
+topics: ["pkm", "working out loud"]
+people: ["Harold Jarche"]
 ---
 
 

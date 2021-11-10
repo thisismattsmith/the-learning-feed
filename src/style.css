@@ -108,7 +108,7 @@ h6 {
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em; 
   background-color: #013EFF;
-    background-image: linear-gradient(90deg, var(--color-primary), #ff00c8);
+    background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -163,7 +163,7 @@ h5 > a,
 h6 > a {
   text-decoration: none;
   background-color: #013EFF;
-  background-image: linear-gradient(90deg, var(--color-primary), #a200ff);
+  background-image: linear-gradient(45deg, var(--color-primary), #a200ff);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -187,7 +187,7 @@ p a {
 }
 
 p a:hover{
-  background-image: linear-gradient(90deg, var(--color-primary), #a200ff);
+  background-image: linear-gradient(45deg, var(--color-primary), #a200ff);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -267,7 +267,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   background-color: var(--color-primary);
-  background-image: linear-gradient(90deg, #6700dd, #ff00c8);
+  background-image: linear-gradient(45deg, #6700dd, #ff00c8);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -284,19 +284,76 @@ a:focus {
   padding: var(--spacing-10) var(--spacing-5);
 }
 
-.global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
-}
-
 .global-header {
   margin-bottom: var(--spacing-12);
+  text-align: center;
 }
+
+/* Sidebar */
+.universalSidebar {
+  width: 25%;
+  z-index: 1;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebarPic {
+  align-self: center;
+}
+
+.sidebar-wrapper {
+  text-align: left;
+  margin-left: var(--spacing-0) auto;
+  padding: var(--spacing-0) var(--spacing-10);
+}
+
+.sidebar-wrapper ul li {
+  font-size: var(--fontSize-1);
+  list-style: none;
+  margin: 0px;
+  text-decoration: underline;
+  margin-left: -2rem;
+}
+
+.sidebar-link {
+  color: rgb(88, 88, 88);
+  font-weight: var(--fontWeight-normal);
+  font-size: var(--fontSize-1);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border-color: rgb(173, 32, 32);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.sidebar-link:hover {
+  color: var(--color-secondary);
+  padding-left: 10px;
+  text-decoration: none;
+  box-shadow: 4px 0px 0px 0px #e52e71 inset;
+  background: linear-gradient(90deg,#e52e71, blueviolet, var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.intro-sidebar {
+  float: right;
+
+}
+  /* end sidebar */
 
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
   background-color: #013EFF;
-  background-image: linear-gradient(90deg, var(--color-primary), #ff00c8);
+  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -311,7 +368,6 @@ a:focus {
   border: rgb(235, 235, 235);
   border-style: solid;
   border-width: 1px;
-  border-radius: 20px;
   align-items: center;
   text-align: left;
   background-color: white;
@@ -383,4 +439,31 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .universalSidebar{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.universalSidebar a {float: left;}
+div.content {margin-left: 0;}
+
+.global-header {
+  display: none;
+}
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+.universalSidebar a {
+  text-align: center;
+  float: none;
+}
+
+.global-header {
+  display: none;
+}
 }
