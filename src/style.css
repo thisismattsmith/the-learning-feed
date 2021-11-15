@@ -370,6 +370,10 @@ a:focus {
   background-color: white;
 }
 
+.post-list-text {
+  display: block;
+}
+
 .post-list-item p {
   margin-bottom: var(--spacing-0);
 }

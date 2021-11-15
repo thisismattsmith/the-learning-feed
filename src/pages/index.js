@@ -5,10 +5,9 @@ import Seo from "../components/seo"
 
 
 const BlogIndex = ({ data, location }) => {
-  const post = data.allMarkdownRemark
+  const post = data.MarkdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  
 
   if (posts.length === 0) {
     return (
@@ -45,12 +44,10 @@ const BlogIndex = ({ data, location }) => {
                     </Link>
                   </h2>
                 </header>
-                <section>
-                  <p
-                     dangerouslySetInnerHTML={{ __html: post.html }}
-                     itemProp="articleBody"
-                  />
-                </section>
+                <section classname="post-list-text"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          itemProp="articleBody"
+        />
                 <br />
                 <small>{post.frontmatter.date} | Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
                 </small>
