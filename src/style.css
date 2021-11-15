@@ -192,7 +192,7 @@ p a {
 }
 
 p a:hover{
-  background-image: linear-gradient(45deg, var(--color-primary), #a200ff);
+  background-image: linear-gradient(45deg, blueviolet, #ff00c8);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -273,7 +273,7 @@ a:hover,
 a:focus {
   text-decoration: none;
   background-color: var(--color-primary);
-  background-image: linear-gradient(45deg, #6700dd, #ff00c8);
+  background-image: linear-gradient(45deg, blueviolet, #ff00c8);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -396,6 +396,9 @@ a:focus {
   padding: 30px;
   background-color: rgb(248, 248, 248);
   margin: 30px;
+  border: rgb(235, 235, 235);
+  border-style: solid;
+  border-width: 1px;
 }
 
 .bio {
@@ -437,6 +440,9 @@ a:focus {
 .blog-post {
   padding: 50px;
   background-color: white;
+  border: rgb(235, 235, 235);
+  border-style: solid;
+  border-width: 1px;
 }
 
 .gatsby-highlight {
@@ -464,11 +470,6 @@ a:focus {
 }
 .universalSidebar a {float: left;}
 
-.global-header {
-  display: none;
-  margin-left: 0;
-}
-
 .global-wrapper footer link {
   text-align: right;
 }
@@ -481,7 +482,4 @@ a:focus {
   float: none;
 }
 
-.global-header {
-  display: none;
-}
 }
