@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import Sidebar from "./sidebar"
 
 
 const Layout = ({ location, title, children }) => {
