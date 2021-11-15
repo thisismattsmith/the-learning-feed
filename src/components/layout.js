@@ -30,7 +30,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer>
         <div className="main-footer"><small>
-        <Link to="/about">About</Link> • <Link to="/rss.xml">RSS</Link> • <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank">LinkedIn</a> • <a href="https://twitter.com/TheLearnFeed" target="_blank">Twitter</a>
+        <Link to="/about">About</Link> • <Link to="/rss.xml">RSS</Link> • <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank" rel="noreferrer">LinkedIn</a> • <a href="https://twitter.com/TheLearnFeed" target="_blank" rel="noreferrer">Twitter</a>
         </small></div>
       </footer>
     </div>

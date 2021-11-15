@@ -55,7 +55,7 @@ const BlogIndex = ({ data, location }) => {
                   />
                 </section>
                 <br />
-                <small>{post.frontmatter.date} | Source: <a href={post.frontmatter.srclink} target="_blank">{post.frontmatter.source}</a>
+                <small>{post.frontmatter.date} | Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
                 </small>
               </article>
             </li>

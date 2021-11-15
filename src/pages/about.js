@@ -23,24 +23,24 @@ const AboutPage = ({ data, location }) => {
 
         </p>
         <br />
-        You can get in touch via <a href="mailto:hello@thelearningfeed.com">email</a>, <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank">LinkedIn</a>, <a href="https://twitter.com/TheLearnFeed" target="_blank">Twitter</a>
+        You can get in touch via <a href="mailto:hello@thelearningfeed.com">email</a>, <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank" rel="noreferrer">LinkedIn</a>, <a href="https://twitter.com/TheLearnFeed" target="_blank" rel="noreferrer">Twitter</a>
         <br />
         <br />
         
       <h3>FAQs</h3>
       <h5>Who made this?</h5>
-      <p>The Learning Feed is created and maintained by <a href="https://www.linkedin.com/in/thisismattsmith/" target="_blank">Matt Smith</a>. 
+      <p>The Learning Feed is created and maintained by <a href="https://www.linkedin.com/in/thisismattsmith/" target="_blank" rel="noreferrer">Matt Smith</a>. 
       </p>
       <br />
-      <p>You can connect with him on <a href="https://www.linkedin.com/in/thisismattsmith/">LinkedIn</a>, <a href="https://twitter.com/MattSmithTweets">Twitter</a>, <a href="https://www.polywork.com/mattsmith">Polywork</a> and <a href="https://medium.com/@thisismattsmith">Medium</a>.
+      <p>You can connect with him on <a href="https://www.linkedin.com/in/thisismattsmith/" target="_blank" rel="noreferrer">LinkedIn</a>, <a href="https://twitter.com/MattSmithTweets">Twitter</a>, <a href="https://www.polywork.com/mattsmith">Polywork</a> and <a href="https://medium.com/@thisismattsmith">Medium</a>.
         </p>
       <h5>Why are some articles, books, videos and podcasts referenced multiple times?</h5>
       <p>Dunno</p>
       <h5>Can I suggest content for the learning feed?</h5>
       <p>Yes! If you see something interesting just tag the learning feed. 
         <ul>
-        <li>Twitter: tag <a href="https://twitter.com/MattSmithTweets">@TheLearnFeed</a> as a reply to any interesting tweets (or send a DM).</li>
-        <li>LinkedIn: tag <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank">The Learning Feed company page</a> for anything interesting on LinkedIn</li>
+        <li>Twitter: tag <a href="https://twitter.com/MattSmithTweets" target="_blank" rel="noreferrer">@TheLearnFeed</a> as a reply to any interesting tweets (or send a DM).</li>
+        <li>LinkedIn: tag <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank" rel="noreferrer">The Learning Feed company page</a> for anything interesting on LinkedIn</li>
         <li>Anything else can be shared by email to <a href="mailto:hello@thelearningfeed.com">hello@thelearningfeed.com</a></li>
         </ul>
         </p>
