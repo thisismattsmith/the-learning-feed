@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 
 
 const BlogIndex = ({ data, location }) => {
+  const post = data.allMarkdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
   
@@ -49,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
                 <section>
                   <p
                      dangerouslySetInnerHTML={{ __html: post.html }}
-                     itemProp="articleBody"
+                     itemProp="articleText"
                   />
                 </section>
                 <br />
