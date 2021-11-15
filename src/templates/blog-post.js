@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -29,13 +27,13 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <small>Added on {post.frontmatter.date}</small>
-        <hr />
         <footer>
-          <Bio />
+        <small>Source: <a href={post.frontmatter.srclink} target="_blank">{post.frontmatter.source}</a>
+        <br/>
+        Added on {post.frontmatter.date} <br />
+        </small>
         </footer>
-      </article>
-      <nav className="blog-post-nav">
+        <nav className="blog-post-nav">
         <ul
           style={{
             display: `flex`,
@@ -61,6 +59,9 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      </article>
+      <br />
+      
     </Layout>
   )
 }
@@ -86,6 +87,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        srclink
+        source
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

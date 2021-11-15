@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import { siteMetadata } from "../../gatsby-config"
 import Greeting from "./greeting"
 
-const Intro = () => (
+const Sidebar = () => (
     
     <header>
-    <div className="universalSidebar">
+  <div className="universalSidebar">
   <div className="sidebar-wrapper">
   <br />
             <Link to="/about" className="sidebar-link">About</Link>
@@ -24,4 +24,4 @@ const Intro = () => (
 )
 
 
-export default Intro
+export default Sidebar

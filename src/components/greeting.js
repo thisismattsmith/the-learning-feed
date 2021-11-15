@@ -6,11 +6,14 @@ const Greeting = ({ data, location }) => {
   var hour = date.getHours();  
   
  
-  if (hour < 3) {  
+  if (hour < 1) {  
 
     return (
         <p>
-          Wow, thanks for visiting at such an early time of day.
+          *yawn* it's getting late, or early, I can't quite tell... *yawn*
+
+          <br />
+          Feel free to go ahead and scroll through this latest hand picked learning content. Just turn the lights off when you leave please. *yawn* I'm going to sleep.
         </p>
      
     )
@@ -21,7 +24,7 @@ const Greeting = ({ data, location }) => {
       
        
         <p>
-          Good morning.
+          Good morning, here are some freshly brewed items about learning and development to help you start your day.
         </p>
      
     )
@@ -32,21 +35,22 @@ const Greeting = ({ data, location }) => {
       
        
         <p>
-          Good morning.
+          Good morning. 
+          <br />
+          I hope you enjoy these freshly baked thoughts about learning and development.
         </p>
      
     )
   }
 
-  if (hour < 12) {  
+  if (hour < 14) {  
 
     return (
       
        
         <p>
-          Good afternoon
+         Welcome to the Learning Feed, a regularly updated collection of interesting ideas all about learning and development.
         </p>
-     
     )
   }
 
@@ -57,7 +61,7 @@ if (hour < 17) {
     
      
       <p>
-        Good afternoon.
+        Good afternoon. Here are some hand picked ideas, advice and musings all about learning.
       </p>
    
   )
@@ -69,7 +73,7 @@ if (hour < 17) {
       
        
         <p>
-          Good evening and welcome to the learning feed.Good evening and welcome to the learning feed.Good evening and welcome to the learning feed.Good evening and welcome to the learning feed.Good evening and welcome to the learning feed.Good evening and welcome to the learning feed.
+          Good evening. Feel free to peruse our latest collection of the finest learning-related offerings from around the web.
         </p>
      
     )
@@ -80,7 +84,11 @@ if (hour < 17) {
     return (
       
         <p>
-          Hello night owl.
+          Oh hello there.
+          <br />
+          There's nothing quite like some late night learning is there?. 
+          <br />
+          Scroll down for some new ideas about learning and development... but don't stay up too late! Sleep is very important for learning too.
         </p>
      
     )
@@ -91,7 +99,7 @@ if (hour < 17) {
     return (
     
         <p>
-          Hello!
+          Hello! Welcome to the Learning Feed, a regularly updated collection of interesting ideas all about learning and development.
         </p>
       
     )

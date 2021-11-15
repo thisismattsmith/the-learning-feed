@@ -1,8 +1,10 @@
 ---
 title: Enthusiastic explicit instruction
-date: "2021-11-08"
+date: "2021-11-11"
 topics: ["explicit instruction", "language learning"]
 pople: ["Adam Boxer"]
+srclink: "https://twitter.com/adamboxer1/status/1453400746792259587"
+source: "Adam Boxer's tweet"
 ---
 
 This is a ceratinly a great example of engaging explicit instuction, but it also demonstrates clever lesson design. 

@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -88,6 +88,13 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+/*Using footer for navigation until I implement a sidebar and top nav menu */
+
+footer .main-footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
 hr {
   background: var(--color-accent);
   height: 1px;
@@ -103,17 +110,11 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  margin-top: var(--spacing-12);
+  margin-top: var(--spacing-6);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em; 
-  background-color: #013EFF;
-    background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  
 }
 
 h2,
@@ -129,6 +130,16 @@ h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  background-color: #013EFF;
+  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  text-align: center;
+
 }
 
 h2 {
@@ -162,13 +173,7 @@ h4 > a,
 h5 > a,
 h6 > a {
   text-decoration: none;
-  background-color: #013EFF;
-  background-image: linear-gradient(45deg, var(--color-primary), #a200ff);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+  color: var(--color-primary);
 }
 
 /* Prose */
@@ -182,7 +187,7 @@ p {
 }
 
 p a {
-  color: #013EFF;
+  color: var(--color-primary);
   text-decoration: underline;
 }
 
@@ -244,6 +249,7 @@ blockquote > :last-child {
 blockquote > ul,
 blockquote > ol {
   list-style-position: inside;
+  margin-left: var(--spacing-0);
 }
 
 table {
@@ -297,6 +303,7 @@ a:focus {
   margin: 0;
   padding: 0;
   position: fixed;
+  float: top;
   height: 100%;
   overflow: auto;
 }
@@ -309,22 +316,16 @@ a:focus {
   text-align: left;
   margin-left: var(--spacing-0) auto;
   padding: var(--spacing-0) var(--spacing-10);
+  width: 180px;
 }
 
-.sidebar-wrapper ul li {
-  font-size: var(--fontSize-1);
-  list-style: none;
-  margin: 0px;
-  text-decoration: underline;
-  margin-left: -2rem;
-}
 
 .sidebar-link {
   color: rgb(88, 88, 88);
   font-weight: var(--fontWeight-normal);
   font-size: var(--fontSize-1);
-  display: block;
   padding: 10px;
+  display: block;
   text-decoration: none;
   border-color: rgb(173, 32, 32);
   border-width: 1px;
@@ -342,29 +343,25 @@ a:focus {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-
-.intro-sidebar {
-  float: right;
-
-}
   /* end sidebar */
 
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
   background-color: #013EFF;
-  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  
 }
 
 .post-list-item {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
-  padding: 20px;
+  padding: 30px;
   border: rgb(235, 235, 235);
   border-style: solid;
   border-width: 1px;
@@ -378,7 +375,7 @@ a:focus {
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-3);
+  font-size: var(--fontSize-2);
   color: var(--color-primary);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
@@ -393,6 +390,12 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
+}
+
+.blog-post footer {
+  padding: 30px;
+  background-color: rgb(248, 248, 248);
+  margin: 30px;
 }
 
 .bio {
@@ -412,7 +415,14 @@ a:focus {
 }
 
 .blog-post header h1 {
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+  background-color: #013EFF;
+  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  text-align: left;
 }
 
 .blog-post header p {
@@ -422,6 +432,11 @@ a:focus {
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+.blog-post {
+  padding: 50px;
+  background-color: white;
 }
 
 .gatsby-highlight {
@@ -448,12 +463,15 @@ a:focus {
   position: relative;
 }
 .universalSidebar a {float: left;}
-div.content {margin-left: 0;}
 
 .global-header {
   display: none;
+  margin-left: 0;
 }
 
+.global-wrapper footer link {
+  text-align: right;
+}
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

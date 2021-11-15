@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
 import { StaticImage } from "gatsby-plugin-image"
+import Sidebar from "./sidebar"
 
 
 const Layout = ({ location, title, children }) => {
@@ -10,7 +10,7 @@ const Layout = ({ location, title, children }) => {
   let header
 
   if (isRootPath) {
-    header = (
+    header = (      
       <h1 className="main-heading">
         <Link to="/">{title}</Link>
       </h1>
@@ -25,15 +25,13 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      
+
       <header className="global-header">{header}</header>
-      
       <main>{children}</main>
-      <footer><small>
-      
-      <br></br>
-        Created and maintained by <a href="http://thisismattsmith.com">Matt Smith</a>. This site contains affiliate links to help cover hosting and other costs. Read the Affiliate policy for more information. 
-        </small>
+      <footer>
+        <div className="main-footer"><small>
+        <Link to="/about">About</Link> • <Link to="/rss.xml">RSS</Link> • <a href="https://www.linkedin.com/company/the-learning-feed/" target="_blank">LinkedIn</a> • <a href="https://twitter.com/TheLearnFeed" target="_blank">Twitter</a>
+        </small></div>
       </footer>
     </div>
   )
