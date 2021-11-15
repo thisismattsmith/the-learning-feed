@@ -462,24 +462,3 @@ a:focus {
   }
 }
 
-@media screen and (max-width: 900px) {
-  .universalSidebar{
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-.universalSidebar a {float: left;}
-
-.global-wrapper footer link {
-  text-align: right;
-}
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-.universalSidebar a {
-  text-align: center;
-  float: none;
-}
-
-}
