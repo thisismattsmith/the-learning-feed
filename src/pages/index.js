@@ -27,8 +27,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <ol style={{ listStyle: `none` }}>
-      <p>Hello! Welcome to the Learning Feed, a regularly updated collection of interesting ideas all about learning and development.</p>
-      <br/>
+      
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
@@ -45,12 +44,11 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  
                 </header>
                 <section>
                   <p
                      dangerouslySetInnerHTML={{ __html: post.html }}
-                     itemProp="articleText"
+                     itemProp="articleBody"
                   />
                 </section>
                 <br />
