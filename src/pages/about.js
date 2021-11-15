@@ -57,6 +57,7 @@ const AboutPage = ({ data, location }) => {
       <p>GatsbyJS and a lot of red wine.</p>  
       <br />
       <p>Site traffic is monitored by Fathom Analytics because they don't track your personal data and their UI is very pretty.</p>
+      <p>You can <a href="https://app.usefathom.com/share/eoucjenz/the+learning+feed" target="_blank" rel="noreferrer">view traffic on the public dashboard</a></p>
     </Layout>
   )
 }

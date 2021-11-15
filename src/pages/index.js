@@ -3,8 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Sidebar from "../components/sidebar"
-import Greeting from "../components/greeting"
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -28,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <ol style={{ listStyle: `none` }}>
-      <Greeting/>
+      <p>Hello! Welcome to the Learning Feed, a regularly updated collection of interesting ideas all about learning and development.</p>
       <br/>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
