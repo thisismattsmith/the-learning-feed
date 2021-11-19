@@ -12,14 +12,7 @@ const AboutPage = ({ data, location }) => {
       <Seo title="What is The Learning Feed?" />
       <h1>What is The Learning Feed?</h1>
       <p>
-        You have to skip through promotional messages and 
-        Even if you follow great people on social media you still have to sift through 
-
-        So this site takes great ideas from content
-
-        The aim is to amplify great work
-
-        Resurface older content that is still useful
+        THe goal of this site is to present you with interesting ideas about Learning and Development.
 
         </p>
         <br />
@@ -34,8 +27,6 @@ const AboutPage = ({ data, location }) => {
       <br />
       <p>You can connect with him on <a href="https://www.linkedin.com/in/thisismattsmith/" target="_blank" rel="noreferrer">LinkedIn</a>, <a href="https://twitter.com/MattSmithTweets">Twitter</a>, <a href="https://www.polywork.com/mattsmith">Polywork</a> and <a href="https://medium.com/@thisismattsmith">Medium</a>.
         </p>
-      <h5>Why are some articles, books, videos and podcasts referenced multiple times?</h5>
-      <p>Dunno</p>
       <h5>Can I suggest content for the learning feed?</h5>
       <p>Yes! If you see something interesting just tag the learning feed. 
         <ul>
@@ -46,18 +37,13 @@ const AboutPage = ({ data, location }) => {
         </p>
       <p>Please, please, please no spam or boring self promotional content.</p>
       <h5>I want to visit this site regularly but I keep forgetting to check it. Is there any other way I can keep track of your posts?</h5>
-      <p>Yes, you can add this site as your home page.</p>
+      <p>Yes, you can add this site as your home page, add the feed to an RSS reader and follow the LinkedIn and Twitter accounts.</p>
       <h5>How can I get my content featured on The Learning Feed?</h5>
       <p>Make something interesting about Learning and Development! If it's good it will eventually end up here. 
       <br />
       It would be especially wonderful to feature ideas from real world case studies but there seems to be a global shortage. Maybe you could write some? 😉</p>
       <h5>Why are some articles, books, videos and podcasts referenced multiple times?</h5>
       <p>Each post discusses a single idea from a source. Some sources are so good they have multiple great ideas.</p>
-      <h5>What is this site built with?</h5>
-      <p>GatsbyJS and a lot of red wine.</p>  
-      <br />
-      <p>Site traffic is monitored by Fathom Analytics because they don't track your personal data and their UI is very pretty.</p>
-      <p>You can <a href="https://app.usefathom.com/share/eoucjenz/the+learning+feed" target="_blank" rel="noreferrer">view traffic on the public dashboard</a></p>
     </Layout>
   )
 }
