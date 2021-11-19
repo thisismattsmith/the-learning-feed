@@ -28,7 +28,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <footer>
-        <small>Source: <a href={post.frontmatter.srclink} target="_blank">{post.frontmatter.source}</a>
+        <small>Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
         <br/>
         Added on {post.frontmatter.date} <br />
         </small>

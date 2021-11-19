@@ -30,9 +30,11 @@
   --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+  --fontFamily-serif: "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --fontFamily-sans-body: "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
@@ -55,6 +57,7 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #4100ff;
+  --color-secondary: #ff00c8;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -78,8 +81,9 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: var(--fontSize-1);
+  font-family: var(--fontFamily-sans-body);
+  font-weight: var(--fontWeight-medium);
+  font-size: var(--fontSize-2);
   color: var(--color-text);
   background-color: rgb(248, 248, 248);
 }
@@ -179,7 +183,7 @@ h6 > a {
 /* Prose */
 
 p {
-  line-height: var(--lineHeight-relaxed);
+  line-height: var(--lineHeight-normal);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
   margin: var(--spacing-) var(--spacing-0) var(--spacing-8) var(--spacing-0);
@@ -232,14 +236,14 @@ li > ul {
 }
 
 blockquote {
-  color: var(--color-text-light);
   margin-left: calc(var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
+  font-size: var(--fontSize-2);
   border-left: var(--spacing-1) solid var(--color-primary);
-  font-size: var(--fontSize-1);
-  font-style: italic;
   margin-bottom: var(--spacing-8);
+  font-family: sans-serif;
+  color: #464646;
 }
 
 blockquote > :last-child {
@@ -405,6 +409,10 @@ a:focus {
   border-width: 1px;
 }
 
+.twitter-tweet {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .bio {
   display: flex;
   margin-bottom: var(--spacing-16);
