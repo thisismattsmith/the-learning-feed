@@ -6,7 +6,7 @@ module.exports = {
       summary: `who makes useful things.`,
     },
     description: `The Learning Feed`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://thelearningfeed.com`,
     social: {
       twitter: `TheLearnFeed`,
     },
