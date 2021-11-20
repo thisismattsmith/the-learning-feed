@@ -12,7 +12,7 @@ const AboutPage = ({ data, location }) => {
       <Seo title="What is The Learning Feed?" />
       <h1>What is The Learning Feed?</h1>
       <p>
-        THe goal of this site is to present you with interesting ideas about Learning and Development.
+        The goal of this site is to present you with interesting ideas about Learning and Development.
 
         </p>
         <br />
