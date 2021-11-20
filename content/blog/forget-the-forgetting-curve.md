@@ -7,8 +7,9 @@ category: ["Schooling & Education", "Workplace Learning/L&D", "Personal Learning
 srclink: "https://theemotionallearner.com/2021/03/24/the-forgetting-curve-how-useful-is-it/"
 source: "The Forgetting Curve: How Useful is it?"
 ---
-The forgetting curve is a work of experimental psychology by Hermann Ebbinghaus. It's often used to show that we forget what we've learned over time. People will also quote refer to the forgetting curve and quote statistics like ["within one hour, people will have forgotten an average of 50 percent of the information you presented"](https://learningsolutionsmag.com/articles/1379/brain-science-the-forgetting-curvethe-dirty-secret-of-corporate-training) or _["learners will forget an average of 90% of what they have learned within the first month"](https://www.growthengineering.co.uk/what-is-the-forgetting-curve/)_.
-
+The forgetting curve is a work of experimental psychology by Hermann Ebbinghaus. It's often used to show that we forget what we've learned over time. People will also quote refer to the forgetting curve and quote statistics like ["within one hour, people will have forgotten an [average of 50 percent](https://learningsolutionsmag.com/articles/1379/brain-science-the-forgetting-curvethe-dirty-secret-of-corporate-training) of the information you presented" or _"learners will forget an [average of 90%]((https://www.growthengineering.co.uk/what-is-the-forgetting-curve/)) of what they have learned within the first month"_.
+<br />
+<br />
 Marc Smith points out the issues with Ebbinghaus' study in his post [The Forgetting Curve: How Useful is it?](https://theemotionallearner.com/2021/03/24/the-forgetting-curve-how-useful-is-it/)
 
 - There was only one participant in the study
