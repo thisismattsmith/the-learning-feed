@@ -13,15 +13,15 @@ The forgetting curve is a work of experimental psychology by Hermann Ebbinghaus.
 People will also refer to the forgetting curve and quote statistics like "within one hour, people will have forgotten an [average of 50 percent](https://learningsolutionsmag.com/articles/1379/brain-science-the-forgetting-curvethe-dirty-secret-of-corporate-training) of the information you presented" or _"learners will forget an [average of 90%]((https://www.growthengineering.co.uk/what-is-the-forgetting-curve/)) of what they have learned within the first month"_.
 <br />
 <br />
-Marc Smith points out some issues with Ebbinghaus' study:
+Marc Smith points out some issues with the experiment:
 
 - There was only one participant in the study
 - That once participant was Mr Ebbinghaus
-- The information used in the study was stripped of meaning
-	- Therefore the information has no utility to the participant
-	- Without meaning there is no prior learning for the information to integrate with
 - The findings can't be generalised to how things work in the real world
+- The information used in the study was stripped of meaning
+- Wihtout meaning, the information has no utility to the participant
+- Meaningless information has no prior learning for the information to integrate with
 
-We don't forget information at a consistent rate. As Marc writes, it's more complicated than that:
+We don't forget information at a consistent rate over time. As Marc writes, it's more complicated than that:
 
 > ...information is lost over time, yet some seems to stick better than others because the new information is being integrated with previous learning. The time taken to forget is therefore dependent on more than just the passing of time and to think of it is such is to neglect these other important factors.

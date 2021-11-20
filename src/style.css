@@ -393,6 +393,11 @@ a:focus {
   margin-bottom: var(--spacing-4);
 }
 
+.post-list-item ul {
+  margin-bottom: var(--spacing-5);
+  margin-top: var(--spacing-5);
+}
+
 .header-link-home {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
