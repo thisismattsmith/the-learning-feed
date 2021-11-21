@@ -490,6 +490,11 @@ a:focus {
     margin-left: 0px;
   }
 
+  h1 {
+    word-wrap: break-word;
+    font-size: var(--fontSize-4);
+  }
+
   body {
     font-size: var(--fontSize-1);
   }
