@@ -172,7 +172,6 @@ h1 > a {
 }
 
 h2 > a,
-h3 > a,
 h4 > a,
 h5 > a,
 h6 > a {
@@ -180,6 +179,17 @@ h6 > a {
   color: var(--color-primary);
 }
 
+h3 > a {
+  font-weight: var(--fontWeight-black);
+  background-color: #013EFF;
+  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  text-align: left;
+}
 /* Prose */
 
 p {
@@ -244,6 +254,7 @@ blockquote {
   margin-bottom: var(--spacing-8);
   font-family: sans-serif;
   color: #464646;
+  font-style: italic;
 }
 
 blockquote > :last-child {
@@ -472,10 +483,15 @@ a:focus {
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
+    font-size: var(--fontSize-1);
   }
   ul,
   ol {
-    list-style-position: inside;
+    margin-left: 0px;
+  }
+
+  body {
+    font-size: var(--fontSize-1);
   }
 }
 
