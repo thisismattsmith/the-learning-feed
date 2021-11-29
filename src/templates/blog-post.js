@@ -30,6 +30,8 @@ const BlogPostTemplate = ({ data, location }) => {
         <footer>
         <small>Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
         <br/>
+        People mentioned: {post.frontmatter.people}
+        <br />
         Added on {post.frontmatter.date} <br />
         </small>
         </footer>
@@ -89,6 +91,7 @@ export const pageQuery = graphql`
         description
         srclink
         source
+        people
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

@@ -10,6 +10,6 @@ source: "Draw A Box: Lesson 0"
 
 The popular online drawing course [Draw A Box](https://drawabox.com/) has an interesting rule for its students to follow:
 
->..._at least_ half of the time you spend drawing **must** be devoted to drawing purely for its own sake. Not to learn, not to improve, not to develop your skills, not even to apply what you've already learned.
+>...at least half of the time you spend drawing must be devoted to drawing purely for its own sake. Not to learn, not to improve, not to develop your skills, not even to apply what you've already learned.
 
 In other words, for every minute of practice there should be a minute of play.
