@@ -204,24 +204,14 @@ p {
 }
 
 p a {
-  color: var(--color-primary);
-  text-decoration: underline;
-}
-
-p a:hover{
-  background-image: linear-gradient(45deg, blueviolet, #ff00c8);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: solid rgba(137, 43, 226, 0.151);
 }
 
 a[target="_blank"]::after { 
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-  color: var(--color-primary);
-  padding: 5px;
-  vertical-align: super;
+  margin: 0 3px 0 5px;
 }
 
 ul,
