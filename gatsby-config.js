@@ -49,6 +49,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Roboto, Work Sans"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
     `gatsby-plugin-twitter`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
