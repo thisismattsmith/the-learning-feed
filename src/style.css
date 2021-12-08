@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-3xl);
+  --maxWidth-wrapper: var(--maxWidth-4xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -500,14 +500,16 @@ li .post-list-item {
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+  font-size: var(--fontSize-1);
+  font-weight: var(--fontWeight-black);
+  font-family: var(--fontFamily-mono);
 }
 
 .blog-post {
-  padding: 50px;
+  padding: 40px 50px 20px 50px;
   background-color: white;
-  border: rgb(235, 235, 235);
-  border-style: solid;
-  border-width: 1px;
+  border: 4px solid black;
+  border-radius: 10px;
 }
 
 .gatsby-highlight {
@@ -518,7 +520,7 @@ li .post-list-item {
 
 @media (max-width: 42rem) {
   blockquote {
-    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
+    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
     margin-left: var(--spacing-0);
     font-size: var(--fontSize-1);
   }
@@ -528,6 +530,10 @@ li .post-list-item {
     font-size: 64px;
     margin-top: -20px;
   }
+  .blog-post {
+    padding: 20px;
+  }
+
   .blog-post footer {
     padding: 10px;
     background-color: rgb(248, 248, 248);
@@ -536,6 +542,22 @@ li .post-list-item {
     border-style: solid;
     border-width: 1px;
   }
+
+.post-list-item ul {
+  margin-left: 10px;
+}
+
+.blog-post ul {
+  margin-left: 20px;
+}
+
+.blog-post-nav ul {
+  font-size: var(--fontSize-1);
+}
+
+.post-list-item li:last-child{
+  padding-bottom: 10px;
+}
 
   ul,
   ol {
