@@ -28,12 +28,12 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <footer>
-        <small>Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
+        <p class="blog-meta">Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
         <br/>
         People mentioned: {post.frontmatter.people}
         <br />
         Added on {post.frontmatter.date} <br />
-        </small>
+        </p>
         </footer>
         <nav className="blog-post-nav">
         <ul

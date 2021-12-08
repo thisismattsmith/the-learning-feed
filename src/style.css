@@ -33,6 +33,7 @@
   --fontFamily-serif: "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --fontFamily-sans-body: "Roboto", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Segoe UI Symbol";
+  --fontFamily-mono: "Roboto Mono";
   --fontFamily-blockquote: "Work Sans", "Merriweather", "Georgia", Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -275,15 +276,15 @@ blockquote > :last-child {
     content: "↳ ";
   }
 
-  .quoted::before {
-    content: "↳ ";
-    text-decoration: none;
-    border-bottom: none;
-  }
-
 p.quoted {
   margin-top: -15px;
   margin-right: var(--spacing-24);
+}
+
+p.blog-meta {
+font-size: var(--fontSize-0);
+font-family: var(--fontFamily-mono);
+line-height: var(--spacing-6);
 }
 
 blockquote > ul,
@@ -401,19 +402,21 @@ a[target="_blank"]::after {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-  
 }
 
 .post-list-item {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
   padding: 30px;
-  border: rgb(235, 235, 235);
+  border: var(--color-text);
   border-style: solid;
-  border-width: 1px;
+  border-width: 4px;
+  border-radius: 10px;
   align-items: center;
   text-align: left;
   background-color: white;
+}
+li .post-list-item {
+  margin-bottom: var(--spacing-8);
+  margin-top: var(--spacing-8);
 }
 
 .post-list-text {
@@ -429,6 +432,7 @@ a[target="_blank"]::after {
   color: var(--color-primary);
   margin-bottom: var(--spacing-6);
   margin-top: var(--spacing-0);
+  
 }
 
 .post-list-item header {
@@ -436,8 +440,8 @@ a[target="_blank"]::after {
 }
 
 .post-list-item ul {
-  margin-bottom: var(--spacing-5);
-  margin-top: var(--spacing-5);
+  margin-bottom: var(--spacing-10);
+  margin-top: var(--spacing-16);
 }
 
 .header-link-home {
@@ -448,9 +452,9 @@ a[target="_blank"]::after {
 }
 
 .blog-post footer {
-  padding: 30px;
+  padding: 20px;
   background-color: rgb(248, 248, 248);
-  margin: 30px;
+  margin: 50px;
   border: rgb(235, 235, 235);
   border-style: solid;
   border-width: 1px;

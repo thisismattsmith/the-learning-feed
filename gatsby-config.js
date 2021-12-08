@@ -53,7 +53,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {
-          families: ["Roboto, Work Sans"],
+          families: ["Roboto, Work Sans, Roboto Mono"],
           urls: ["/fonts/fonts.css"],
         },
       },
