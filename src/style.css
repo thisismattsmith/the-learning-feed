@@ -428,20 +428,22 @@ li .post-list-item {
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-3);
   color: var(--color-primary);
   margin-bottom: var(--spacing-6);
   margin-top: var(--spacing-0);
   
 }
-
+.post-list-item p.blog-meta {
+  margin: 0px;
+}
 .post-list-item header {
   margin-bottom: var(--spacing-4);
+  
 }
 
 .post-list-item ul {
-  margin-bottom: var(--spacing-10);
-  margin-top: var(--spacing-16);
+  list-style: disc;
 }
 
 .header-link-home {

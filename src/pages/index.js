@@ -49,8 +49,8 @@ const BlogIndex = ({ data, location }) => {
           itemProp="articleBody"
         />
                 <br />
-                <small>{post.frontmatter.date} | Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
-                </small>
+                <p class="blog-meta">Source: <a href={post.frontmatter.srclink} target="_blank" rel="noreferrer">{post.frontmatter.source}</a>
+                </p>
               </article>
             </li>
           )
