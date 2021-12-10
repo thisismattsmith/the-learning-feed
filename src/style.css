@@ -563,8 +563,12 @@ li .post-list-item {
   margin-left: 10px;
 }
 
-.blog-post ul {
+.blog-post ul ol {
   margin-left: 20px;
+}
+
+.blog-post ol li {
+  margin-left: 20px
 }
 
 .blog-post-nav ul {
