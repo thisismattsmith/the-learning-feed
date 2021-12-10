@@ -325,7 +325,6 @@ a:focus {
   transition: box-shadow .5s ease-in-out;
   box-shadow: inset 0px -40px 0px 0pc rgba(137, 43, 226, 0.151);
   border-radius: 4px;
-  
 }
 
 a[target="_blank"]::after { 
@@ -434,8 +433,8 @@ li .post-list-item {
   margin-bottom: var(--spacing-6);
   margin-top: var(--spacing-0);
   font-weight: var(--fontWeight-black);
-  
 }
+
 
 .post-list-item h2 a {
   padding-right: 10px;
@@ -447,7 +446,6 @@ li .post-list-item {
 .post-list-item h2 a:hover {
   box-shadow: inset 0px -35px 0px 0px rgba(226, 177, 43, 0.329);
   transition: box-shadow .5s;
-
 }
 
 .post-list-item p.blog-meta {
@@ -455,7 +453,6 @@ li .post-list-item {
 }
 .post-list-item header {
   margin-bottom: var(--spacing-4);
-  
 }
 
 .post-list-item ul {
@@ -563,7 +560,7 @@ li .post-list-item {
   margin-left: 10px;
 }
 
-.blog-post ul ol {
+.blog-post ul, ol {
   margin-left: 20px;
 }
 
