@@ -565,7 +565,8 @@ li .post-list-item {
 }
 
 .blog-post ol li {
-  margin-left: 20px
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .blog-post-nav ul {
