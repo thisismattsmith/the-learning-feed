@@ -13,7 +13,7 @@ The forgetting curve is a work of experimental psychology by Hermann Ebbinghaus.
 People will also refer to the forgetting curve and quote statistics like _"within one hour, people will have forgotten an [average of 50 percent](https://learningsolutionsmag.com/articles/1379/brain-science-the-forgetting-curvethe-dirty-secret-of-corporate-training) of the information you presented"_ and _"learners will forget an [average of 90%]((https://www.growthengineering.co.uk/what-is-the-forgetting-curve/)) of what they have learned within the first month"_.
 <br />
 <br />
-Marc Smith points out some issues with the experiment:
+Marc Smith points out some issues with Ebbinghaus' experiment:
 
 - There was only one participant in the study
 - That one participant was Mr Ebbinghaus
