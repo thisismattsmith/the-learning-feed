@@ -145,13 +145,6 @@ h1 {
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
-  background-color: #013EFF;
-  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
   text-align: center;
 
 }
@@ -191,13 +184,6 @@ h6 > a {
 
 h3 > a {
   font-weight: var(--fontWeight-black);
-  background-color: #013EFF;
-  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
   text-align: left;
 }
 /* Prose */
@@ -251,7 +237,7 @@ blockquote {
   margin-left: calc(var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
   font-family: var(--fontFamily-blockquote);
 }
 
@@ -398,20 +384,13 @@ a[target="_blank"]::after {
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
-  background-color: #013EFF;
-    background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
 }
 
 .post-list-item {
   padding: 30px;
   border: var(--color-text);
   border-style: solid;
-  border-width: 4px;
+  border-width: 5px;
   border-radius: 10px;
   align-items: center;
   text-align: left;
@@ -440,11 +419,11 @@ li .post-list-item {
   padding-right: 10px;
   padding-left: 10px;
   transition: box-shadow .5s;
-  box-shadow: inset 0px -18px 0px 0pc rgba(226, 177, 43, 0.329);
+  box-shadow: inset 0px -12px 0px 0pc rgb(255, 235, 124, 0.75);
 }
 
 .post-list-item h2 a:hover {
-  box-shadow: inset 0px -35px 0px 0px rgba(226, 177, 43, 0.329);
+  box-shadow: inset 0px -35px 0px 0px rgba(255, 235, 124, 0.75);
   transition: box-shadow .5s;
 }
 
@@ -496,13 +475,6 @@ li .post-list-item {
 }
 
 .blog-post header h1 {
-  background-color: #013EFF;
-  background-image: linear-gradient(45deg, var(--color-primary), #ff00c8);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
   text-align: left;
 }
 
@@ -516,12 +488,22 @@ li .post-list-item {
   font-size: var(--fontSize-1);
   font-weight: var(--fontWeight-black);
   font-family: var(--fontFamily-mono);
+  
 }
 
+.blog-post-nav li a {
+  box-shadow: none;
+  transition: box-shadow .5s ease-in-out;
+}
+
+.blog-post-nav li a:hover, a:focus {
+box-shadow: inset 0px -35px 0px 0px rgba(255, 235, 124, 0.75);
+transition: box-shadow .8s ease-in-out;
+}
 .blog-post {
   padding: 40px 50px 20px 50px;
   background-color: white;
-  border: 4px solid black;
+  border: 5px solid black;
   border-radius: 10px;
 }
 

@@ -8,7 +8,7 @@ srclink: "https://drawabox.com/lesson/0/2/50percent"
 source: "Draw A Box: Lesson 0"
 ---
 
-The popular online drawing course [Draw A Box](https://drawabox.com/) has an interesting rule for its students to follow:
+The popular online drawing course _Draw A Box_ has an interesting rule for its students to follow:
 
 >...at least half of the time you spend drawing must be devoted to drawing purely for its own sake. Not to learn, not to improve, not to develop your skills, not even to apply what you've already learned.
 
