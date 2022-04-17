@@ -17,7 +17,7 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        ↵ Return to the feed
+        ↵ return to the feed
       </Link>
     )
   }
