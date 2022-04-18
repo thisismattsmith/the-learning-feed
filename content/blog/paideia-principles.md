@@ -10,7 +10,9 @@ source: "Reforming education: The opening of the American mind"
 
 The **Paideia Proposal** is a K–12 educational reform plan proposed by Mortimer Adler. 
 
+
 Within the proposal he declared 12 principles:
+
 
 1.  That all children can learn;
 2.  That, therefore, they all deserve the same quality of schooling, not just the same quantity;
