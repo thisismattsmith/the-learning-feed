@@ -2,7 +2,7 @@
 title: Becoming effective at a new job, quickly
 date: "2021-11-16"
 topics: ["skill acquisition", "onboarding", "rapid learning techniques"]
-people: ["David McIver"]
+people: ["David R. McIver"]
 category: ["Workplace Learning/L&D", "Personal Learning"]
 srclink: "https://www.drmaciver.com/2013/08/how-did-you-get-started-so-quickly/"
 source: "How to quickly become effective when joining a new company"
